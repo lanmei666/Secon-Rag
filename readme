@@ -1,43 +1,42 @@
-# 🔥 {Project Name}: {Short Description}
-[Project Page](#) | [Paper](#)
+<!-- badges -->
+[![arXiv](https://img.shields.io/badge/arXiv-YYYY.NNNNN-orange)](#)
+[![License](https://img.shields.io/badge/license-MIT-blue)](#)
+[![Python](https://img.shields.io/badge/python-3.10-green)](#)
 
-{Author1}*1, {Author2}*1, {Author3}1, {Author4}2, {Author5}3, {Author6}4  
-1{Institution 1}, 2{Institution 2}, 3{Institution 3}, 4{Institution 4}  
-*Equal Contribution
+# {Project Name}
+{一句话描述你的项目（中文/英文）}
 
----
-
-## Overview
-{Add a short overview of your project here.}
-
----
-
-## Drawing
-(Insert your architecture figure here)
+**Authors:** {Author1}*, {Author2}*, {Author3}, ...  
+{Institution1}, {Institution2}  
+\*Equal contribution
 
 ---
 
-# 🔥 NEWS
-{YYYY.MM.DD} {Update 1}  
-{YYYY.MM.DD} {Update 2}  
-{YYYY.MM.DD} {Update 3}  
+## 📌 Overview
+简短介绍：写 2-4 句，说明研究目标、主要贡献、问题场景（例如：针对 RAG 的语义过滤与冲突消解；提出两阶段过滤 + 冲突解决模块；提升检索可信度与生成可靠性等）。
 
 ---
 
-# 🛝 Try it out!
-{Demo or quick usage}
+## 🖼️ Paper / Project Page
+- **Paper**: {paper PDF or arXiv 链接}  
+- **Project page / Demo**: {url if any}  
+- **Code**: 本仓库用于复现论文中的方法与实验。
 
 ---
 
-# 🛠️ Installation
+## 🔥 NEWS
+- **2025-01-10** — Added OpenAI API inference + Self-Assessment module (示例或说明)。  
+- **2025-01-05** — Release code for dataset preprocessing and training scripts.  
+- **2024-12-xx** — Initial upload.
 
-```bash
-git clone {your_repo_url}
+---
 
-conda create -n {env_name} python=3.10
-conda activate {env_name}
+## 🚀 Features
+- Two-stage semantic filtering for retrieval augmentation.  
+- Conflict-free fusion mechanism for multi-source evidence.  
+- Self-assessment module to estimate retrieval correctness.  
+- Support for BEIR-style retrieval benchmarks and PoisonedRAG attack evaluation.
 
-pip install -r requirements.txt
+---
 
-cd {Project_Folder}
-python run.py
+## 📁 Repository Structure

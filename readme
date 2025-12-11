@@ -1,1 +1,69 @@
 code will be released soon
+🔥 {Project Name}: {Short Slogan or One-Line Description}
+
+[Project page] · [Paper]
+
+{Author1}*1, {Author2}*1, {Author3}1, {Author4}2, {Author5}3, {Author6}4
+1{Institution 1}, 2{Institution 2}, 3{Institution 3}, 4{Institution 4}
+*Equal Contribution
+
+🖼️ Drawing
+
+（Insert your architecture figure here）
+
+🔥 NEWS
+
+{Date} {Update description}
+{Date} {Update description}
+
+🛝 Try it out!
+
+（Add your demo link or usage instructions）
+
+🛠️ Installation
+git clone {your_repo_url}
+
+conda create -n {env_name} python=3.10
+conda activate {env_name}
+
+pip install -r requirements.txt
+
+cd {Project_Folder}
+python run.py
+
+✨ Features
+
+{Feature 1 description}
+
+{Feature 2 description}
+
+{Feature 3 description}
+
+{Feature 4 description}
+
+🙏 Acknowledgement
+
+Our code is based on or inspired by:
+
+{Dependency / Library 1}
+
+{Dependency / Library 2}
+
+{Dependency / Library 3}
+
+{Dependency / Library 4}
+
+📝 Citation and Reference
+
+If you find this paper useful, please consider starring 🌟 this repo and citing 📑 our paper:
+
+@article{{key},
+  title={{Your Paper Title}},
+  author={{Author1 and Author2 and Author3}},
+  journal={arXiv preprint arXiv:{number}},
+  year={2025}
+}
+
+📬 Contact
+
+If you have questions or suggestions, feel free to open an issue or reach out!

@@ -1,39 +1,14 @@
-Retrieval-Augmented Generation
-Introduction
+# Retrieval-Augmented Generation
+
+## Introduction
 
 This repository is the official implementation of the papers.
 
-Setup
-1. Create Environment
+## Setup
+
+### 1. Create Environment
+
+```bash
 conda create -n my_custom_env python=3.12
 conda activate my_custom_env
 pip install -r requirements.txt
-
-2. Set OpenAI API Key
-
-Ensure your OpenAI API key is set as an environment variable.
-
-export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
-export OPENAI_API_URL="YOUR_OPENAI_BASE_URL"  # Optional, for custom endpoints
-
-Usage
-Run Training (SeConRAG)
-python Train.py
-
-Run Retrieval-Augmented Generation
-python RAG.py
-
-Citation
-
-If you find this work useful, please consider citing:
-
-@inproceedings{
-si2025seconrag,
-title={SeCon-{RAG}: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy {RAG}},
-author={Xiaonan Si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia},
-booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-year={2025},
-url={https://openreview.net/forum?id=tTwZhy8JqY}
-}
-
-

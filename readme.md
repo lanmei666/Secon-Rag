@@ -17,7 +17,7 @@ Ensure your OpenAI API key is set as an environment variable.
 
 export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 export OPENAI_API_URL="YOUR_OPENAI_BASE_URL"  # Optional, if using a custom endpoint
----
+```
 
 
 ## Citation

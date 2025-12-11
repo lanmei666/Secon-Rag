@@ -1,4 +1,9 @@
-# Retrieval-Augmented Generation ## Introduction This repository is the official implementation of the papers ## Setup 1. Please run the following commands to set up the environment:
+# Retrieval-Augmented Generation 
+## Introduction 
+
+This repository is the official implementation of the papers 
+
+## Setup 1. Please run the following commands to set up the environment:
 bash
 conda env create my_custom_env python=3.12
 conda activate my_custom_env
@@ -7,12 +12,10 @@ pip install -r requirements.txt
 bash
 export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 export OPENAI_API_URL="YOUR_OPENAI_BASE_URL" # Optional, if using a custom endpoint
-## Usage ### SeconRAG
-bash
-python Train
-### SeconRAG
-bash
-python RAG
+
+
+
+
 ## Citation The citations for our attribution framework:
 bib
 

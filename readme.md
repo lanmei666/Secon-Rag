@@ -17,11 +17,15 @@ export OPENAI_API_URL="YOUR_OPENAI_BASE_URL" # Optional, if using a custom endpo
 
 
 ## Citation
-@inproceedings{
-si2025seconrag,
+
+The citations for our attribution framework:
+@inproceedings{si2025seconrag,
 title={SeCon-{RAG}: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy {RAG}},
 author={Xiaonan Si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia},
 booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
 year={2025},
 url={https://openreview.net/forum?id=tTwZhy8JqY}
 }
+
+
+

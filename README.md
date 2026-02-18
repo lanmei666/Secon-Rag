@@ -64,7 +64,7 @@ If you find this paper useful, please consider staring 🌟 this repo and citing
 @inproceedings{si2025seconrag,
   title={SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG},
   author={Si, Xiaonan and Zhu, Meilin and Qin, Simeng and Yu, Lijia and Zhang, Lijun and Liu, Shuaitong and Li, Xinfeng and Duan, Ranjie and Liu, Yang and Jia, Xiaojun},
-  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  journal={arXiv preprint arXiv:2510.09710},
   year={2025}
 }
 

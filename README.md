@@ -49,3 +49,25 @@ pip install timm==0.9.2
 cd TrustRAG
 
 python demo.py
+
+
+## 🙏 Acknowledgement
+
+* Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
+
+
+
+## 📝 Citation and Reference
+
+If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
+
+```
+@article{si2025secon,
+  title={SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG},
+  author={Si, Xiaonan and Zhu, Meilin and Qin, Simeng and Yu, Lijia and Zhang, Lijun and Liu, Shuaitong and Li, Xinfeng and Duan, Ranjie and Liu, Yang and Jia, Xiaojun},
+  journal={arXiv preprint arXiv:2510.09710},
+  year={2025}
+}
+}
+```
+

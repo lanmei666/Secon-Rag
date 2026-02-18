@@ -1,28 +1,40 @@
-# 🔥 TrustRAG: Enhancing Robustness and Trustworthiness in RAG
-[[Project page]](https://trust-rag.github.io/) [[Paper]](https://arxiv.org/pdf/2501.00879)
+# SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG
 
-[Huichi Zhou*](https://huichizhou.github.io/)<sup>1</sup>, [Kin-Hei Lee*](https://openreview.net/profile?id=~Lee_KinHei1)<sup>1</sup>, [Zhonghao Zhan*](https://zhonghaozhan.github.io/)<sup>1</sup>, [Yue Chen]()<sup>2</sup>, [Zhenhao Li](https://zhenhaoli.net/)<sup>1</sup>, [Zhaoyang Wang](https://zhaoyang.win/)<sup>3</sup>,[Hamed Haddadi](https://profiles.imperial.ac.uk/h.haddadi)<sup>1</sup> [Emine Yilmaz](https://scholar.google.com/citations?hl=en&user=ocmAN4YAAAAJ)<sup>4</sup>
+[[Paper]](https://arxiv.org/abs/2510.09710) [[NeurIPS 2025 Poster]](https://neurips.cc/virtual/2025/poster/115589)
 
-<sup>1</sup>Imperial College London, <sup>2</sup>Peking University, <sup>3</sup>University of North Carolina at Chapel Hill, <sup>4</sup>University College London
+[Xiaonan Si], [Meilin Zhu]()<sup>1</sup>, [Simeng Qin]()<sup>1</sup>, [Lijia Yu]()<sup>2</sup>, [Lijun Zhang]()<sup>1</sup>, [Shuaitong Liu]()<sup>1</sup>, [Xinfeng Li]()<sup>1</sup>, [Ranjie Duan]()<sup>1</sup>, [Yang Liu]()<sup>1</sup>, [Xiaojun Jia]()<sup>1</sup>
 
-<sup>*</sup>Equal Contribution
+<sup>1</sup>Institute of Software, Chinese Academy of Sciences,
 
-<img src="media/Method.jpg" alt="drawing" width="100%"/>
 
 ## 🔥 NEWS
 
-- 2025.1.10 OpenAI API Inference Now Supported! Additionally, we have introduced a new module: Self-Assessment of Retrieval Correctness, enabling enhanced evaluation of retrieval accuracy.
+- **2025.10**: 🎉 **SeCon-RAG** has been accepted by **NeurIPS 2025**!
+- **2025.10**: The paper is available on [arXiv](https://arxiv.org/abs/2510.09710).
+- **2025.12**: We have released the code for SeCon-RAG.
+
+## 📖 Abstract
+
+Retrieval-augmented generation (RAG) systems enhance large language models (LLMs) with external knowledge but are vulnerable to **corpus poisoning** and **contamination attacks**, which can compromise output integrity. Existing defenses often apply aggressive filtering, leading to unnecessary loss of valuable information and reduced reliability in generation. 
+
+To address this problem, we propose **SeCon-RAG**, a two-stage semantic filtering and conflict-free framework for trustworthy RAG:
+1.  **Stage 1: Semantic & Cluster-based Filtering.** Guided by an **Entity-Intent-Relation Extractor (EIRE)**, this stage extracts entities, latent objectives, and relations to selectively add valuable documents into a clean retrieval database.
+2.  **Stage 2: Conflict-Aware Filtering.** An EIRE-guided module analyzes semantic consistency between the query, candidate answers, and retrieved knowledge to filter out internal and external contradictions.
+
+Extensive experiments across various LLMs and datasets demonstrate that SeCon-RAG markedly outperforms state-of-the-art defense methods.
 
 ## 🛝 Try it out!
 
 ### 🛠️ Installation
 
-```
-git clone https://github.com/HuichiZhou/TrustRAG.git
+```bash
+git clone [https://github.com/lanmei666/Secon-Rag.git](https://github.com/lanmei666/Secon-Rag.git)
+cd Secon-Rag
 
-conda create -n trustrag python=3.10
+conda create -n seconrag python=3.10
+conda activate seconrag
 
-conda activate trustrag
+
 
 pip install lmdeploy
 
@@ -36,27 +48,4 @@ pip install timm==0.9.2
 
 cd TrustRAG
 
-python run_trustrag.py
-```
-
-## 🙏 Acknowledgement
-
-* Our code used the implementation of [corpus-poisoning](https://github.com/princeton-nlp/corpus-poisoning).
-* The model part of our code is from [Open-Prompt-Injection](https://github.com/liu00222/Open-Prompt-Injection).
-* Our code used [beir](https://github.com/beir-cellar/beir) benchmark.
-* Our code used [contriever](https://github.com/facebookresearch/contriever) for retrieval augmented generation (RAG).
-* Our code used [PoisonedRAG](https://github.com/sleeepeer/PoisonedRAG) for corpus poisoning attack.
-
-
-## 📝 Citation and Reference
-
-If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
-
-```
-@article{zhou2025trustrag,
-  title={TrustRAG: Enhancing Robustness and Trustworthiness in RAG},
-  author={Zhou, Huichi and Lee, Kin-Hei and Zhan, Zhonghao and Chen, Yue and Li, Zhenhao},
-  journal={arXiv preprint arXiv:2501.00879},
-  year={2025}
-}
-```
+python demo.py

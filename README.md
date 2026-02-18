@@ -2,7 +2,7 @@
 
 [[Paper]](https://arxiv.org/abs/2510.09710) [[NeurIPS 2025 Poster]](https://neurips.cc/virtual/2025/poster/115589)
 
-[Xiaonan Si], [Meilin Zhu]()<sup>1</sup>, [Simeng Qin]()<sup>1</sup>, [Lijia Yu]()<sup>2</sup>, [Lijun Zhang]()<sup>1</sup>, [Shuaitong Liu]()<sup>1</sup>, [Xinfeng Li]()<sup>1</sup>, [Ranjie Duan]()<sup>1</sup>, [Yang Liu]()<sup>1</sup>, [Xiaojun Jia]()<sup>1</sup>
+[Xiaonan Si], [Meilin Zhu],[Lijia Yu], [Lijun Zhang], [Shuaitong Liu], [Xiaojun Jia]()
 
 <sup>1</sup>Institute of Software, Chinese Academy of Sciences,
 

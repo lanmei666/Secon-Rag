@@ -43,13 +43,13 @@ cd TrustRAG
 python demo.py
 
 
-## 🙏 Acknowledgement
+### 🙏 Acknowledgement
 
 * Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
 
 
 
-## 📝 Citation and Reference
+### 📝 Citation and Reference
 
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 

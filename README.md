@@ -2,9 +2,17 @@
 
 [[Paper]](https://arxiv.org/abs/2510.09710) | [[NeurIPS 2025 Poster]](https://neurips.cc/virtual/2025/poster/115589)
 
-Xiaonan Si<sup>1</sup>, Meilin Zhu<sup>1</sup>, Simeng Qin, Lijia Yu<sup>1</sup>, Lijun Zhang<sup>1</sup>, Shuaitong Liu<sup>1</sup>, Xinfeng Li, Ranjie Duan, Yang Liu, Xiaojun Jia<sup>1</sup>
+Xiaonan Si<sup>1*</sup>, Meilin Zhu<sup>2,3*</sup>, Simeng Qin<sup>4†</sup>, Lijia Yu<sup>5†</sup>, Lijun Zhang<sup>1†</sup>, Shuaitong Liu<sup>6</sup>, Xinfeng Li<sup>7</sup>, Ranjie Duan<sup>8</sup>, Yang Liu<sup>7</sup>, Xiaojun Jia<sup>7†</sup>
 
-<sup>1</sup> *Institute of Software, Chinese Academy of Sciences*
+<sup>1</sup> *Institute of Software, Chinese Academy of Sciences, Beijing, China* <br>
+<sup>2</sup> *Key Laboratory of System Software (Chinese Academy of Sciences) and State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, Beijing, China* <br>
+<sup>3</sup> *University of Chinese Academy of Sciences, Beijing, China* <br>
+<sup>4</sup> *Northeast University, China* <br>
+<sup>5</sup> *Institute of AI for Industries, Nanjing, China* <br>
+<sup>6</sup> *Southwest University, China* <br>
+<sup>7</sup> *Nanyang Technological University, Singapore* <br>
+<sup>8</sup> *Alibaba, China* <br>
+<small><sup>*</sup> Equal contribution. &nbsp; <sup>†</sup> Corresponding authors.</small>
 
 ## 🔥 NEWS
 
@@ -28,7 +36,7 @@ Extensive experiments across various LLMs and datasets demonstrate that SeCon-RA
 
 ```bash
 # Clone the repository
-git clone [https://github.com/lanmei666/Secon-Rag.git](https://github.com/lanmei666/Secon-Rag.git)
+git clone https://github.com/lanmei666/Secon-Rag.git
 cd Secon-Rag
 
 # Create and activate conda environment
@@ -41,15 +49,15 @@ pip install lmdeploy beir nltk rouge_score timm==0.9.2
 # Run the demo
 cd TrustRAG
 python demo.py
-
-
-### 🙏 Acknowledgement
+```
+```
+## 🙏 Acknowledgement
 
 * Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
+```
 
-
-
-### 📝 Citation and Reference
+```
+## 📝 Citation and Reference
 
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 
@@ -59,4 +67,4 @@ If you find this paper useful, please consider staring 🌟 this repo and citing
   journal={arXiv preprint arXiv:2510.09710},
   year={2025}
 }
-
+```

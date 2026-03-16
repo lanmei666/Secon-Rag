@@ -54,7 +54,7 @@ python demo.py
 
 ## 🙏 Acknowledgement
 ```
-* Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
+Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
 ```
 
 ## 📝 Citation and Reference
@@ -67,13 +67,12 @@ If you find this paper useful, please consider staring 🌟 this repo and citing
   journal={arXiv preprint arXiv:2510.09710},
   year={2025}
 }
-@inproceedings{
-si2025seconrag,
-title={SeCon-{RAG}: A Two-Stage Semantic  Filtering and Conflict-Free Framework for Trustworthy {RAG}},
-author={Xiaonan si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia},
-booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-year={2025},
-url={https://openreview.net/forum?id=tTwZhy8JqY}
+@inproceedings{si2025seconrag,
+  title={SeCon-{RAG}: A Two-Stage Semantic  Filtering and Conflict-Free Framework for Trustworthy {RAG}},
+  author={Xiaonan si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  url={https://openreview.net/forum?id=tTwZhy8JqY}
 }
 
 ```

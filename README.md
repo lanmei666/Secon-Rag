@@ -1,6 +1,6 @@
 # SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG
 
-[[Paper]](https://arxiv.org/abs/2510.09710) | [[NeurIPS 2025 Poster]](https://neurips.cc/virtual/2025/poster/115589)
+[[Paper]](https://arxiv.org/abs/2510.09710) | [[NeurIPS 2025 Poster]](https://openreview.net/forum?id=tTwZhy8JqY)
 
 Xiaonan Si<sup>1*</sup>, Meilin Zhu<sup>2,3*</sup>, Simeng Qin<sup>4†</sup>, Lijia Yu<sup>5†</sup>, Lijun Zhang<sup>1†</sup>, Shuaitong Liu<sup>6</sup>, Xinfeng Li<sup>7</sup>, Ranjie Duan<sup>8</sup>, Yang Liu<sup>7</sup>, Xiaojun Jia<sup>7†</sup>
 
@@ -50,15 +50,15 @@ pip install lmdeploy beir nltk rouge_score timm==0.9.2
 cd TrustRAG
 python demo.py
 ```
-```
-## 🙏 Acknowledgement
 
+
+## 🙏 Acknowledgement
+```
 * Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
 ```
 
-```
 ## 📝 Citation and Reference
-
+```
 If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 
 @inproceedings{si2025seconrag,
@@ -67,4 +67,13 @@ If you find this paper useful, please consider staring 🌟 this repo and citing
   journal={arXiv preprint arXiv:2510.09710},
   year={2025}
 }
+@inproceedings{
+si2025seconrag,
+title={SeCon-{RAG}: A Two-Stage Semantic  Filtering and Conflict-Free Framework for Trustworthy {RAG}},
+author={Xiaonan si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=tTwZhy8JqY}
+}
+
 ```

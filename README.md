@@ -54,7 +54,7 @@ python demo.py
 
 ## 🙏 Acknowledgement
 ```
-Our code used the implementation of [Trust-RAG](https://github.com/HuichiZhou/TrustRAG).
+Our code used the implementation of [[Trust-RAG]](https://github.com/HuichiZhou/TrustRAG).
 ```
 
 ## 📝 Citation and Reference
